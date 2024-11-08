@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 import pandas as pd
 
-# Data App
+# Data App.
 app = Flask('Weather')
 
 station = pd.read_csv('data_small/stations.txt', skiprows=17)
